@@ -6,7 +6,7 @@
 
 <strong>Click link to launch website in browser.</strong>
 
-[Payroll Tracker](https://xchrisxwilliamsx.github.io/payroll-tracker)
+[Payroll Tracker](https://xchrisxwilliamsx.github.io/Payroll-Tracker)
 
 <p> When arriving to site please click on button "Add Employees".
 <p> After click event multiple prompts will display on page.  This will consist of "Enter First Name:", "Enter Last Name:", and "Enter Salary:".  
