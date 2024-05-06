@@ -46,7 +46,8 @@ h2 {
   padding: 30px 40px;
 }
 
-.card-header::after {
+.card-header::after,
+.card-footer::before {
   content: " ";
   display: block;
   width: 100%;
@@ -75,14 +76,6 @@ tbody tr:nth-child(even) {
 
 .card-footer {
   text-align: center;
-}
-
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
 }
 
 .card-footer::after {

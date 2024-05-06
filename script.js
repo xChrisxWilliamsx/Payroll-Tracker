@@ -6,6 +6,7 @@ const collectEmployees = function() {
   
   let setConfirm = true;
   let employeesArray = [];
+  
     while (setConfirm === true) {
       const firstName = prompt("Enter First Name:");
       const lastName = prompt("Enter Last Name:");
@@ -16,6 +17,7 @@ const collectEmployees = function() {
       setConfirm = confirm("Would you like to add another employee?");
       employeesArray.push({firstName:firstName, lastName:lastName, salary:salary});
     }
+
     return employeesArray;
 
   }
